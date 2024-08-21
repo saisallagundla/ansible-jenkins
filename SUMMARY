@@ -1,0 +1,30 @@
+
+
+---
+
+### **CI/CD Pipeline Project Using Jenkins, Ansible, Docker, and AWS**
+
+**Description**:  
+Designed and implemented a fully automated CI/CD pipeline for deploying web applications using Jenkins, Ansible, Docker, and AWS services. This project demonstrates my ability to integrate cloud technologies and DevOps tools to streamline deployment processes.
+
+**Key Responsibilities**:
+- **Infrastructure Setup**: Configured two EC2 instances on AWS—one for Jenkins and another for Docker. Set up security groups, allowing specific inbound rules for SSH, HTTP, HTTPS, and custom TCP ports.
+- **Version Control**: Managed source code in GitHub and configured webhooks to trigger Jenkins pipelines automatically upon code commits.
+- **Pipeline Configuration**: Developed a Jenkins pipeline script that automates the build, test, and deployment phases. The pipeline includes steps for cloning the repository, building Docker images, and deploying them to the Docker instance using Ansible.
+- **Containerization**: Used Docker to containerize the web application, ensuring a consistent runtime environment across development and production.
+- **Automation with Ansible**: Created Ansible playbooks to automate the deployment of Docker containers on the target EC2 instance.
+- **Monitoring and Logging**: Monitored the pipeline execution through Jenkins console output and used Docker commands to verify container status and logs.
+- **Verification**: Successfully tested the deployment by accessing the web application through the public IP, ensuring the latest changes are reflected.
+
+**Technologies Used**:
+- **Tools**: Jenkins, Ansible, Docker, GitHub, AWS EC2, NGINX
+- **Languages**: Shell scripting, YAML (for Ansible playbooks)
+- **Processes**: Continuous Integration, Continuous Deployment, Infrastructure as Code (IaC)
+
+**Key Accomplishments**:
+- Automated the deployment process, reducing manual intervention and deployment time by 50%.
+- Improved reliability and consistency in deployment through containerization and automated scripts.
+- Successfully implemented a continuous feedback loop with GitHub webhooks triggering automated pipelines on Jenkins.
+
+---
+
